@@ -1,0 +1,136 @@
+/*
+Folha de Estilo
+*/
+:root{
+  --cor_laranja: #D77A61;
+  --cor_verde: #efd6ff;
+  --cor_amarela: #FFE74C;
+  --cor_vermelha: #FF5964;
+  --cor_branca: #FFFFFF;
+  --cor_marinho: #38618C;
+  --cor_anil: #35A7FF;
+  --cor_violeta: #A790A5;
+  --cor_roxo: #54414E;
+}
+
+body {
+  background-color: rgb(255, 224, 252);
+}
+
+h1 {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  text-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  font-family: Lobster;
+  font-size: 50px;
+  color: #590064;
+}
+
+h2 {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  text-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  font-family: Lobster;
+  color: #590064;
+}
+
+button {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255,255,255,0,75);
+  border: 1px solid rgba(255,255,255,0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  flex-basis: 30%;
+  font-family: Roboto;
+  font-size: 16px;
+  width: 30%;
+  height: 40px;
+
+}
+
+button:hover{
+  font-style: #FFFFFF;
+  background-color: #590064;
+  transition: all 1s ease;
+}
+
+footer{
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  margin: auto;
+}
+
+.header-conteudo {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.main-conteudo{
+    width: 60%;
+    margin: auto;
+    text-align: center
+}
+
+
+.color-container{
+  display: grid;
+  width: 100%;
+
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 3fr 1fr;
+
+  grid-gap: 15px;
+}
+
+.color_1{
+  background-color: var(--cor_laranja);
+}
+.color_2{
+  background-color: var(--cor_verde);
+  }
+.color_3{
+  background-color: var(--cor_amarela);
+}
+.color_4{
+  background-color: var(--cor_vermelha);
+}
+.color_5{
+  background-color: var(--cor_branca);
+  }
+.color_6{
+  background-color: var(--cor_marinho);
+}
+.color_7{
+  background-color: var(--cor_anil);
+}
+.color_8{
+  background-color: var(--cor_violeta);
+}
+.color_9{
+  background-color: var(--cor_roxo);
+}
+
+[class*="color_"]{
+  font-size: 20px;
+  border: 2px solid Black;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+/**/
